@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+    File: Lab1_ejcohe22.html
+    Name: Erik Cohen
+    Class: CS 325, January 2022
+    Lab: 1
+    Due date: Tuesday, January 4, at 11:59pm
+
+    One of my two "extra tags" is the <nav> tag. This designates a set of links for navigation.
+        In conjunction with the <section> tag, I am able to add ID's that can be jumped to (internal <a> links). This also connects to the second HTML page "work_samples.html", which has its own navbar to get back to this main page
+
+    My other extra tag is the <audio> tag. This is used in the work_samples page to feature the multimodal work that would be neccesary for my CV
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1: Online Resume</title>
+</head>
+<body>
+<nav>
+    <a href="#About">About Me</a>  |
+    <a href="#Education">Education</a>  |
+    <a href="#Work">Work Experience</a>  |
+    <a href="#Skills">Skills</a>  |
+    <a href="work_samples.html">Work Samples</a>
+</nav>
+
+<header>
+    <section id= "About">
+    <h1>Erik Cohen</h1>
+        <pre> †îß   îß  ßøµé    ßπéçîå¬    †é≈†</pre>
+        <img src="erik.jpg" alt="Playing Guitar" height="300">
+        <br />
+        <code>print("Hello World!")</code>
+        <p> Hi, I am a Senior at Colby College! I expect to graduate May 2022
+            with a <strong> Music Interdisciplinary Computer Science </strong>
+            &amp; <strong> Computer Science </strong> Double Major and a <em>Mathematics</em> Minor.</p>
+        <blockquote>
+            <q>I value the distinct accumulations of noise that emerge, texturing the resultant artifacts</q> - Ryan Maguire 2019
+        </blockquote>
+    <h3>Contact Me</h3>
+        <ul>
+            <li> Phone: +1 (203) 273 2418</li>
+            <li> Email: ejcohe22@colby.edu</li>
+        </ul>
+    </section>
+</header>
+
+<hr />
+
+<section id= "Education">
+<h2>Education</h2>
+    <details>
+        <summary> B.A. Colby College '22</summary>
+        <ul>
+            <li> 3.7 <abbr title = "Grade Point Average"> GPA</abbr></li>
+            <li> Music Interdisciplinary Computer Science Major</li>
+            <li> Computer Science Major</li>
+            <li> Mathematics Minor</li>
+        </ul>
+    </details>
+</section>
+
+<section id= "Work">
+<h2>Work Experience</h2>
+    <dl>
+        <dt>89.7 WMHB Colby Radio: Studio Director</dt>
+            <dd>&spades; 8/2020 - Present (Assistant Studio Director 1/2019-8/2020)
+                Troubleshoot Hardware, Maintain Equipment, Train Recording/Live Sound Engineers<br />
+            </dd>
+        
+        <dt> Colby College Computer Science Department Summer Research Assistant</dt>
+            <dd><q>Touching Queer</q> Interactive Art Installation. 6/2021-8/2021<br /> 
+                In charge of Rapid Prototyping (C++ &amp; Arduino) and 
+                <abbr title = "Human Computer Interactions">HCI</abbr> conceptualiztion.</dd>
+    </dl>
+</section>
+
+<section id= "Skills">
+<h2>Skills</h2>
+    <table>
+        <tr>
+            <th>Programming Languages</th> <th>Data Science Experience</th> <th>Music</th>
+        </tr>
+        <tr>
+            <td>Python</td><td>Neural Networks</td><td>Logic Pro</td>
+        </tr>
+        <tr>
+            <td>Java</td><td>Data Visualization</td><td>MAX MSP</td>
+        </tr>
+        <tr>
+            <td>SQL/NoSQL</td><td>DS Libraries(numpy, pandas, sklearn)</td><td>Guitar/Bass</td>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    <p>created <time datetime="2021-01-04 04:00">January 2021<sup>&copy;</sup></time></p>
+</footer>
+</body>
+</html>
