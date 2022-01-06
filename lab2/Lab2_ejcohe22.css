@@ -1,0 +1,88 @@
+/*
+File: Lab2_ejcohe22.css
+Name: Erik Cohen
+Class: CS 325, January 2022
+Lab: 2
+Due date: Wednesday, January 5, at 11:59pm
+
+For one of my chosen css styles, I chose the body "overscroll-behavior" style.
+This prevents the page from "bouncing" when scrolled too far on chrome.
+
+The other style I chose was the "border-collapse". This is useful because it
+makes the table less clunky.
+*/
+h1,h3 {
+    color: rgb(225, 147, 213);
+}
+
+[class*=center] {
+    text-align: center;
+    text-decoration: wavy;
+    font-style: italic;
+}
+
+body {
+    margin:0;
+    overscroll-behavior: none;
+    background-color: #282828;
+    color: aliceblue;
+}
+
+#navbar {
+    list-style-type: none;
+    display:flex;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+li.active {
+    background-color: #04AA6D;
+  }
+
+li {
+    margin-right: 10px;
+    margin-top:18px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:larger;
+}
+
+col.middle {
+    background-color:#101010;
+}
+
+a.nav:link {color:white;}
+a.nav:visited {color:white;}
+a.nav:hover {color: rgb(201, 0, 201);}
+
+a:link {color: #b7fffa;}
+a:visited {color: #9370fe;}
+a:hover {color: #c0aaff;}
+
+header {
+    margin: 10px;
+}
+
+section.art {
+    background-image: url("assets/masthead.jpeg");
+    margin:0%;
+    padding:0%;
+}
+
+div.art {
+    background-color: #282828;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table,th,td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+dt {
+    padding-bottom: 0%;
+}
