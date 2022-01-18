@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+    File: Lab5_ejcohe22.html
+    Name: Erik Cohen
+    Class: CS 325, January 2022
+    Lab: 1
+    Due date: Tuesday, January 11, at 11:59pm
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5 Interactive Comment Section</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+<body>
+    <h1>User Comments</h1>
+
+    <form action="./Lab5_ejcohe22.php" method="get">
+        <legend>Add a comment</legend>
+        <div class="inner-form">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name= "name" placeholder="enter your name" />
+            <label for="comment">Comment: </label>
+            <textarea id="comment" name= "comment" rows=4 cols = 40>enter a comment</textarea>
+
+            <div class="inline-buttons">
+                <input class="button" type="reset">
+                <input class="button" type="submit">
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
